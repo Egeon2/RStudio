@@ -58,17 +58,57 @@ dftable13 <- data.frame(N,Alpha005,Alpha001)
 
 
 ##########
-T <- 3
-Ta005 <- 3
-Ta001 <- 0
+T <- 14
+Ta005 <- 25
+Ta001 <- 16
 
 N <- c("Ta","T","H:")
-Alpha005 <- c(Ta005,3,if(Ta005>T) "H1"
+Alpha005 <- c(Ta005,14,if(Ta005>T) "H1"
               else "H0")
-Alpha001 <- c(Ta001,3,if(Ta001>T) "H1"
+Alpha001 <- c(Ta001,14,if(Ta001>T) "H1"
               else "H0")
 
 dftable14 <- data.frame(N,Alpha005,Alpha001)
+
+#########
+T <- 14
+Ta005 <- 78
+Ta001 <- 71
+
+Alpha005 <- c(Ta005,69,if(Ta005>T) "H1"
+              else "H0")
+Alpha001 <- c(Ta001,69,if(Ta001>T) "H1"
+              else "H0")
+
+dftable15 <- data.frame(N,Alpha005,Alpha001)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
